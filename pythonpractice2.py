@@ -1,3 +1,6 @@
+#This code gives the user the option to test if a number is even or odd (option 1) and if it is divisible by 4.
+#Option 2 tells the user if a number is divisible by a another number of their choice.
+
 def mainfunction():
 	print("If you would like to see if a number is even, enter 1")
 	print("\nIf you would like to check a result with your own number to divide by, press 2")
@@ -21,9 +24,7 @@ def firstfunction():
 		if number % 2==1:
 			print("The number is odd")
 		
-#		else:
-#			print("Please enter a valid input!")
-#			firstfunction()
+
 	except ValueError:
 		print("Invalid number. Try again...")
 		firstfunction()
