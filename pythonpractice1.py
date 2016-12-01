@@ -1,6 +1,8 @@
 #This code takes your name and age and tells you how many years are left before you are 100.
 #It also gives you the year at which you will be 100/
+
 from datetime import *
+
 date = datetime.today().year
 stringdate = str(date)
 name = (input("What is your name: "))
